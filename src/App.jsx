@@ -1,6 +1,7 @@
 import './App.css'
 import {Welcome} from "./components/Welcome.jsx";
 import {Button} from "./components/Button.jsx";
+import {User} from "./components/User.jsx";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
         <Welcome />
         <Button />
+        <User />
     </>
   )
 }
